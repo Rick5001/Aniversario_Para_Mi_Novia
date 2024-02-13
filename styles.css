@@ -1,0 +1,91 @@
+/* Estilo para el contenedor principal */
+body{
+    background: turquoise;
+
+}
+.m1{
+    position: absolute;
+    width: 28%;
+    height: 92.3%;
+    margin-left: 67%;
+    padding: 20px;
+    background: url("f1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.m2{
+    position: absolute;
+    width: 28%;
+    height: 92.3%;
+    margin-left: 0;
+    padding: 20px;
+    background: url("f2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+     
+}
+.container {
+    position: absolute;
+    width: 31%;
+    margin-left: 32%;
+    padding: 20px;
+    background: url("Fondo1_Aqua.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0,    0, 0, 0.1);
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+.container .cancelbtn  {
+    background-color: #f44336;
+}
+
+/* Estilo para el botón de inicio de sesión */
+.container button {
+    width: 75%;
+    padding: 10px;
+    background-color: #00FFFF;
+    margin-left: 9%; /* Centrar horizontalmente */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efecto hover para el botón */
+.container button:hover {
+    background-color: #970397;
+}
+
+/* Estilo para el enlace "¿Olvidaste la contraseña?" */
+
+
+.psw a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 47%;
+}
+
+/* Estilo para el botón de cancelar */
+
